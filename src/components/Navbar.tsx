@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { styles } from '../styles';
-import { navLinks } from '../constants/constants';
+import { HOME_PAGE, navLinks } from '../constants/constants';
 import { logo, menu, close } from '../assets';
 
 const Navbar: React.FC = () => {
@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto ">
         <NavLink
-          to="/"
+          to={`/${HOME_PAGE}`}
           className="flex items-center gap-2"
           onClick={() => {
             setActive('');
