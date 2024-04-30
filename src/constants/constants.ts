@@ -306,6 +306,8 @@ const projects = [
 
 const my_github_link = 'https://github.com/Vasyl16';
 
+const HOME_PAGE = 'VasylYurchuk';
+
 export {
   services,
   technologies,
@@ -313,4 +315,5 @@ export {
   testimonials,
   projects,
   my_github_link,
+  HOME_PAGE,
 };
